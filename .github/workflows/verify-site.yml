@@ -1,0 +1,43 @@
+name: Verify deployed site
+
+on: workflow_dispatch
+
+permissions: {}
+
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      SITE_URL: ${{ vars.WE_EAT_PUBLIC_URL }}
+    steps:
+      - name: Check public health and open the catalog in Chrome
+        run: |
+          set -eu
+          test -n "$SITE_URL"
+          curl --max-time 15 -fsS "$SITE_URL/healthz" | jq -e '.ok == true'
+          cd "$RUNNER_TEMP"
+          npm install --no-save --no-audit --no-fund --ignore-scripts playwright-core@1.56.1
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import {chromium} from 'playwright-core';
+          const browser = await chromium.launch({channel:'chrome', headless:true});
+          try {
+            const page = await browser.newPage({viewport:{width:390,height:844}});
+            const response = await page.goto(process.env.SITE_URL);
+            assert.equal(response.status(), 200);
+            await page.getByRole('button', {name:'添加餐厅'}).click();
+            await page.getByRole('searchbox').fill('Hui Tou Xiang');
+            const row = page.locator('.catalog-row').filter({hasText:'Hui Tou Xiang'});
+            const link = row.getByRole('link', {name:/导航到/});
+            await link.waitFor();
+            const maps = new URL(await link.getAttribute('href'));
+            assert.equal(maps.hostname, 'www.google.com');
+            assert.equal(maps.pathname, '/maps/dir/');
+            assert.ok(maps.searchParams.get('destination')?.includes('San Gabriel'));
+            assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+            console.log('Public homepage, mobile restaurant search and Google Maps link passed');
+          } finally {
+            await browser.close();
+          }
+          JS
