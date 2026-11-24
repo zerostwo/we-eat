@@ -22,9 +22,9 @@ docker compose ps
 
 ### 使用 GitHub Actions 构建的镜像
 
-推送到 `main` 或手动运行 **Build Docker image** 会构建 Linux amd64 镜像。工作流启动容器验证首页、健康接口和 SQLite 餐厅库，再推送到 `ghcr.io/zerostwo/we-eat`。每个版本都有 `sha-<完整提交号>` 标签，主分支还会更新 `latest`。
+推送到 `main` 或手动运行 **Build Docker image** 会构建 Linux amd64 镜像。工作流启动容器验证首页、健康接口和 SQLite 餐厅库，再推送到 `ghcr.io/zerostwo/we-eat`。主分支还会把同一镜像推送到 Docker Hub 私有仓库 `duansq/we-eat`。两个仓库均提供 `sha-<完整提交号>` 和 `latest` 标签。Docker Hub 发布令牌保存在 GitHub Actions 仓库密钥 `DOCKERHUB_TOKEN` 中，轮换时更新该密钥。
 
-服务器只需项目的 `compose.yaml` 和 `.env`。在 `.env` 设置 `WE_EAT_IMAGE=ghcr.io/zerostwo/we-eat:sha-<完整提交号>` 和对外端口。已通过 GHCR 私有包认证的服务器可运行：
+服务器只需项目的 `compose.yaml` 和 `.env`。在 `.env` 设置 `WE_EAT_IMAGE=ghcr.io/zerostwo/we-eat:sha-<完整提交号>` 和对外端口。使用 Docker Hub 时，将镜像名设为 `duansq/we-eat:sha-<完整提交号>`。登录相应的私有镜像仓库后运行：
 
 ```sh
 docker compose pull web

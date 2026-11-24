@@ -50,6 +50,18 @@ jobs:
             docker push "$IMAGE:latest"
           fi
 
+      - name: Publish the tested image to Docker Hub
+        if: github.ref == 'refs/heads/main'
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          hub_image=duansq/we-eat
+          printf '%s' "$DOCKERHUB_TOKEN" | docker login --username duansq --password-stdin
+          docker tag "$IMAGE:sha-$GITHUB_SHA" "$hub_image:sha-$GITHUB_SHA"
+          docker push "$hub_image:sha-$GITHUB_SHA"
+          docker tag "$hub_image:sha-$GITHUB_SHA" "$hub_image:latest"
+          docker push "$hub_image:latest"
+
       - name: Export image for servers without registry credentials
         run: docker save "$IMAGE:sha-$GITHUB_SHA" | gzip -1 > "$RUNNER_TEMP/we-eat-linux-amd64.tar.gz"
 
