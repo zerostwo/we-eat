@@ -31,7 +31,15 @@ docker compose pull web
 docker compose up -d --no-build --pull never --wait
 ```
 
-每次成功构建也会在 Actions 运行页保留三天的 `we-eat-linux-amd64` 下载包。解压下载包后运行 `docker load -i we-eat-linux-amd64.tar.gz`，然后执行上面的 Compose 启动命令即可。切换版本时沿用原项目目录及数据卷。发布镜像和更新生产容器是两个独立步骤。
+每次成功构建也会在 Actions 运行页保留三天的 `we-eat-linux-amd64` 下载包。解压下载包后运行 `docker load -i we-eat-linux-amd64.tar.gz`，然后执行上面的 Compose 启动命令即可。切换版本时沿用原项目目录及数据卷。
+
+### CloudCone 自动部署
+
+线上地址为 [eat.catplot.org](https://eat.catplot.org/)。主分支构建、容器测试、镜像发布和归档成功后，工作流把当前主分支镜像标记为 `duansq/we-eat:production`。CloudCone 的 `we-eat-update.timer` 每三分钟检查一次，按镜像摘要部署到 `/srv/we-eat`。
+
+服务器使用专用 Docker Hub 只读凭据，路径为 `/srv/we-eat/.docker`。更新脚本复用 `we-eat_meals` 数据卷，切换前将经过完整性校验的 SQLite 快照存到 `/srv/we-eat/backups/`。容器和数据库检查通过后记录新镜像摘要。启动或检查失败会尝试恢复先前镜像，数据库快照可供恢复时使用。
+
+部署脚本和 systemd 单元位于 `deploy/`。服务器可用 `systemctl list-timers we-eat-update.timer` 查看下次检查时间，用 `journalctl -u we-eat-update.service` 查看发布记录。需要立即检查时运行 `systemctl start we-eat-update.service`。
 
 ### 修改端口或开启网页管理
 

@@ -1,0 +1,12 @@
+[Unit]
+Description=Update the weekend restaurant picker from Docker Hub
+After=network-online.target docker.service
+Requires=docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/srv/we-eat
+ExecStart=/srv/we-eat/update.sh
+TimeoutStartSec=10min
+UMask=0077
