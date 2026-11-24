@@ -1,0 +1,61 @@
+name: Build Docker image
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: docker-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Build the production image
+        run: |
+          image="ghcr.io/${GITHUB_REPOSITORY,,}"
+          echo "IMAGE=$image" >> "$GITHUB_ENV"
+          docker build --pull --tag "$image:sha-$GITHUB_SHA" \
+            --label "org.opencontainers.image.source=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" \
+            --label "org.opencontainers.image.revision=$GITHUB_SHA" .
+
+      - name: Check the running site and SQLite catalog
+        run: |
+          docker run -d --name we-eat-test -p 127.0.0.1:18080:8080 "$IMAGE:sha-$GITHUB_SHA"
+          trap 'docker logs we-eat-test; docker rm -fv we-eat-test' EXIT
+          curl -fsS --retry 15 --retry-all-errors --retry-delay 1 http://127.0.0.1:18080/healthz | jq -e '.ok == true'
+          curl -fsS http://127.0.0.1:18080/ | grep -q '今天吃什么'
+          curl -fsS http://127.0.0.1:18080/api/catalog | jq -e 'any(.[]; .address != "" and .nameZh != "" and .nameEn != "")'
+          curl -fsS http://127.0.0.1:18080/api/state | jq -e '.restaurants | length > 0'
+
+      - name: Publish the tested image to GHCR
+        env:
+          REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          printf '%s' "$REGISTRY_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+          docker push "$IMAGE:sha-$GITHUB_SHA"
+          if [ "$GITHUB_REF" = refs/heads/main ]; then
+            docker tag "$IMAGE:sha-$GITHUB_SHA" "$IMAGE:latest"
+            docker push "$IMAGE:latest"
+          fi
+
+      - name: Export image for servers without registry credentials
+        run: docker save "$IMAGE:sha-$GITHUB_SHA" | gzip -1 > "$RUNNER_TEMP/we-eat-linux-amd64.tar.gz"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: we-eat-linux-amd64
+          path: ${{ runner.temp }}/we-eat-linux-amd64.tar.gz
+          compression-level: 0
+          retention-days: 3

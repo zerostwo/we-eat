@@ -1,0 +1,724 @@
+[
+  {
+    "name": "洞庭鲜",
+    "type": "湘菜、鲜辣小炒",
+    "category": "川湘",
+    "area": "San Gabriel",
+    "opening": "周末 11:00–15:00、17:00–22:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "洞庭鲜",
+    "nameEn": "Dong Ting Xian",
+    "address": "727 E Valley Blvd, San Gabriel, CA 91776",
+    "source": "https://pos.chowbus.com/online-ordering/store/Dong-Ting-Xian-San-Gabriel/15065",
+    "phone": "(626) 899-5481"
+  },
+  {
+    "name": "鱼你在一起",
+    "type": "酸菜鱼",
+    "category": "川湘",
+    "area": "Arcadia",
+    "opening": "周六 11:30–23:00；周日 11:30–21:00",
+    "price": "$",
+    "perPerson": "$15–20",
+    "note": "Baldwin Ave 门店的英文招牌为 Yonny。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "鱼你在一起",
+    "nameEn": "Fish With You",
+    "address": "1431 S Baldwin Ave, Arcadia, CA 91007",
+    "source": "https://www.yonnyarcadia.com/",
+    "phone": "(626) 684-0174"
+  },
+  {
+    "name": "KFC",
+    "type": "炸鸡快餐",
+    "category": "快餐",
+    "area": "Pasadena",
+    "opening": "周末 11:00–21:00",
+    "price": "$",
+    "perPerson": "$10–15",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "肯德基",
+    "nameEn": "KFC",
+    "address": "2896 E Colorado Blvd, Pasadena, CA 91107",
+    "source": "https://locations.kfc.com/ca/pasadena/2896-e-colorado-blvd",
+    "phone": "(626) 795-7739"
+  },
+  {
+    "name": "Curry Pizza",
+    "type": "印度风味披萨",
+    "category": "西式",
+    "area": "Duarte 周边（分店待确认）",
+    "opening": "分店待确认",
+    "price": "$$",
+    "perPerson": "$15–25",
+    "note": "原清单未指定品牌或分店。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "咖喱披萨",
+    "nameEn": "Curry Pizza",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "",
+    "phone": "",
+    "source": "",
+    "alternativeEn": "The Curry Pizza Company"
+  },
+  {
+    "name": "宝记",
+    "type": "粤式烧味、煲仔菜",
+    "category": "其他中餐",
+    "area": "Hacienda Heights",
+    "opening": "周末 10:30–21:00",
+    "price": "$$",
+    "perPerson": "$15–25",
+    "note": "选用 Hacienda Plaza 的宝记门店。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "宝记",
+    "nameEn": "Bao Kee Restaurant",
+    "nameNote": "",
+    "address": "2111 S Hacienda Blvd, Hacienda Heights, CA 91745",
+    "source": "https://www.baokeecalifornia.com/",
+    "phone": "(626) 333-2168"
+  },
+  {
+    "name": "Half and Half",
+    "type": "台式奶茶",
+    "category": "饮品",
+    "area": "Arcadia",
+    "opening": "周末 11:15–20:00",
+    "price": "$",
+    "perPerson": "$6–9",
+    "note": "good all time 👍",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "伴伴堂奶茶",
+    "nameEn": "Half & Half Tea Express",
+    "address": "1421 S Baldwin Ave, Arcadia, CA 91007",
+    "source": "https://www.restaurantji.com/ca/arcadia/half-and-half-tea-express-a2-/",
+    "phone": "(626) 446-1889"
+  },
+  {
+    "name": "喵辣烫",
+    "type": "麻辣烫",
+    "category": "川湘",
+    "area": "Diamond Bar",
+    "opening": "周六 11:30–15:00、16:30–21:00；周日休息",
+    "price": "$",
+    "perPerson": "$15–20",
+    "note": "按重量计价",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "喵辣烫",
+    "nameEn": "Meow’s Spicy Hotpot",
+    "nameNote": "",
+    "address": "1155 S Diamond Bar Blvd, Unit E, Diamond Bar, CA 91765",
+    "source": "https://www.restaurantji.com/ca/diamond-bar/miao-la-tang-meow-s-spicy-hotpot-/",
+    "phone": "(840) 259-1619"
+  },
+  {
+    "name": "粤唯鲜",
+    "type": "粤菜",
+    "category": "其他中餐",
+    "area": "Rosemead",
+    "opening": "周末 11:30–20:40",
+    "price": "$$",
+    "perPerson": "$20–35",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "粤唯鲜",
+    "nameEn": "Boston Lobster",
+    "address": "4501 Rosemead Blvd, Rosemead, CA 91770",
+    "phone": "(626) 288-4388",
+    "source": "https://eatinsgv.com/restaurant/boston-lobster-seafood-restaurant"
+  },
+  {
+    "name": "鼎泰丰",
+    "type": "小笼包 / 点心",
+    "category": "台湾",
+    "area": "Arcadia",
+    "opening": "周六 10:00–22:30；周日 10:00–22:00",
+    "price": "$$",
+    "perPerson": "$30–45",
+    "note": "位于 The Shops at Santa Anita。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "鼎泰丰",
+    "nameEn": "Din Tai Fung",
+    "address": "400 S Baldwin Ave #M5, Arcadia, CA 91007",
+    "source": "https://dtf.com/en-us/locations/arcadia",
+    "phone": "(626) 446-8588"
+  },
+  {
+    "name": "P P Pop",
+    "type": "台湾菜",
+    "category": "台湾",
+    "area": "Monterey Park",
+    "opening": "周末 11:00–21:00",
+    "price": "$",
+    "perPerson": "$15–20",
+    "note": "周三休息",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "一条龙北平面点",
+    "nameEn": "P P Pop",
+    "address": "127 N Garfield Ave, Monterey Park, CA 91754",
+    "phone": "(626) 307-7351",
+    "source": "https://eatinsgv.com/restaurant/pp-pop"
+  },
+  {
+    "name": "烤鱼",
+    "type": "川式烤鱼",
+    "category": "川湘",
+    "area": "Duarte 周边（分店待确认）",
+    "opening": "分店待确认",
+    "price": "$$",
+    "perPerson": "$25–35",
+    "note": "原清单记录的是菜品，具体餐厅待补充。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "烤鱼",
+    "nameEn": "Sichuan Grilled Fish",
+    "nameNote": "清单中的菜品类别，具体店名待补充",
+    "address": "",
+    "phone": "",
+    "source": "",
+    "alternativeEn": "Meet You BBQ"
+  },
+  {
+    "name": "小李子清粥店",
+    "type": "台式清粥小菜",
+    "category": "台湾",
+    "area": "Duarte 周边（分店待确认）",
+    "opening": "分店待确认",
+    "price": "$",
+    "perPerson": "$15–20",
+    "note": "尚未核实与此名称对应的本地粥店。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "小李子清粥店",
+    "nameEn": "Xiao Lizi Congee",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "",
+    "phone": "",
+    "source": "",
+    "alternativeEn": "Lu's Garden"
+  },
+  {
+    "name": "Love to Eat",
+    "type": "待确认",
+    "category": "其他中餐",
+    "area": "Duarte 周边（分店待确认）",
+    "opening": "分店待确认",
+    "price": "$$",
+    "perPerson": "待确认",
+    "note": "尚未核实本地同名餐厅。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "爱吃小馆",
+    "nameEn": "Love to Eat",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "",
+    "phone": "",
+    "source": ""
+  },
+  {
+    "name": "香辣汇",
+    "type": "川菜 / 香锅",
+    "category": "川湘",
+    "area": "Alhambra",
+    "opening": "周末 11:30–21:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "香辣汇",
+    "nameEn": "Xiang La Hui",
+    "address": "621 W Main St, Alhambra, CA 91801",
+    "source": "https://www.laxianglahui.com/about/",
+    "phone": "(626) 703-4165"
+  },
+  {
+    "name": "Hong Kong Dim Sum House",
+    "type": "港式点心",
+    "category": "其他中餐",
+    "area": "San Gabriel",
+    "opening": "周末 09:00–17:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "适合早午茶",
+    "meals": [
+      "l"
+    ],
+    "nameZh": "香港点心屋",
+    "nameEn": "Hong Kong Dim Sum House",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "827 W Las Tunas Dr, San Gabriel, CA 91776",
+    "phone": "(626) 284-8898",
+    "source": "https://eatinsgv.com/restaurant/hk-dim-sum-house"
+  },
+  {
+    "name": "韩式烤肉",
+    "type": "韩国烤肉",
+    "category": "日韩",
+    "area": "Duarte 周边（分店待确认）",
+    "opening": "分店待确认",
+    "price": "$$$",
+    "perPerson": "$35–50",
+    "note": "原清单记录的是用餐类型，具体餐厅待补充。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "韩式烤肉",
+    "nameEn": "Korean BBQ",
+    "nameNote": "清单中的菜品类别，具体店名待补充",
+    "address": "",
+    "phone": "",
+    "source": "",
+    "alternativeEn": "Hodori BBQ & Korean Cuisine"
+  },
+  {
+    "name": "Pine & Crane",
+    "type": "台湾菜",
+    "category": "台湾",
+    "area": "Los Angeles",
+    "opening": "周末 12:00–22:00",
+    "price": "$",
+    "perPerson": "$15–25",
+    "note": "Silver Lake 店，台式面饭和时蔬。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "松鹤亭",
+    "nameEn": "Pine & Crane",
+    "address": "1521 Griffith Park Blvd, Los Angeles, CA 90026",
+    "source": "https://www.pineandcrane.com/silverlake",
+    "phone": "(323) 668-1128"
+  },
+  {
+    "name": "川成卤味",
+    "type": "卤味",
+    "category": "川湘",
+    "area": "Monrovia",
+    "opening": "周末 11:00–22:00",
+    "price": "$",
+    "perPerson": "$15–25",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "川成卤味",
+    "nameEn": "Lin’s Club",
+    "address": "925 W Duarte Rd, Monrovia, CA 91016",
+    "source": "https://www.restaurantji.com/ca/monrovia/lins-club-/",
+    "phone": "(626) 662-1616"
+  },
+  {
+    "name": "Nick's Pasadena",
+    "type": "美式",
+    "category": "西式",
+    "area": "Pasadena",
+    "opening": "周末 11:00–22:00",
+    "price": "$$",
+    "perPerson": "$30–45",
+    "note": "可 OpenTable 订位",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "尼克餐厅",
+    "nameEn": "Nick's Pasadena",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "336 S Lake Ave, Pasadena, CA 91101",
+    "phone": "(626) 787-1444",
+    "source": "https://eatinsgv.com/restaurant/nicks"
+  },
+  {
+    "name": "Star Leaf",
+    "type": "亚洲融合",
+    "category": "其他亚洲",
+    "area": "Pasadena",
+    "opening": "周六 11:00–22:00；周日 11:00–21:30",
+    "price": "$$$",
+    "perPerson": "$31–50",
+    "note": "餐厅入口在 Colorado Blvd。停车场入口在 44 N Madison Ave。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "星叶餐厅",
+    "nameEn": "Star Leaf",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "641 E Colorado Blvd, Pasadena, CA 91101",
+    "source": "https://www.starleafusa.com/contact",
+    "phone": "(626) 345-5371"
+  },
+  {
+    "name": "Kura 回转寿司",
+    "type": "回转寿司",
+    "category": "日韩",
+    "area": "Arcadia",
+    "opening": "周六 10:30–21:30；周日 10:30–20:00",
+    "price": "$$",
+    "perPerson": "$25–35",
+    "note": "The Shops at Santa Anita 内的回转寿司。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "藏寿司",
+    "nameEn": "Kura Revolving Sushi Bar",
+    "address": "400 S Baldwin Ave, Space FC13, Arcadia, CA 91007",
+    "source": "https://kurasushi.com/locations/arcadia-ca",
+    "phone": "(626) 275-8128"
+  },
+  {
+    "name": "海底捞",
+    "type": "川味火锅",
+    "category": "火锅",
+    "area": "Arcadia",
+    "opening": "周六 11:00–01:00；周日 11:00–00:00",
+    "price": "$$$",
+    "perPerson": "$35–50",
+    "note": "The Shops at Santa Anita，Suite 2015。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "海底捞",
+    "nameEn": "Haidilao Hot Pot",
+    "address": "400 S Baldwin Ave Suite 2015, Arcadia, CA 91007",
+    "phone": "(626) 724-5665",
+    "source": "https://haidilaoarcadia.com/"
+  },
+  {
+    "name": "Mo Mo Paradise",
+    "type": "涮涮锅放题",
+    "category": "火锅",
+    "area": "Arcadia",
+    "opening": "周末 11:00–21:00",
+    "price": "$$",
+    "perPerson": "$30–40",
+    "note": "限时吃到饱",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "涮涮锅天堂",
+    "nameEn": "Mo-Mo-Paradise",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "56 E Duarte Rd UNIT 101, Arcadia, CA 91006",
+    "phone": "(626) 898-4500",
+    "source": "https://eatinsgv.com/restaurant/mo-mo-paradise"
+  },
+  {
+    "name": "幺妹火锅",
+    "type": "重庆火锅",
+    "category": "火锅",
+    "area": "Pasadena",
+    "opening": "周末 13:00–20:00",
+    "price": "$$",
+    "perPerson": "$30–40",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "幺妹火锅",
+    "nameEn": "Chong Qing YaoMei Hotpot",
+    "address": "55 W Green St, Pasadena, CA 91105",
+    "source": "https://chongqingyaomei.com/",
+    "phone": "(626) 639-3391"
+  },
+  {
+    "name": "Mumu Hot Pot",
+    "type": "台式小火锅",
+    "category": "火锅",
+    "area": "Torrance",
+    "opening": "周六 11:30–22:30；周日 11:30–22:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "品牌在南加州列出的门店位于 Torrance 的 Del Amo Fashion Center，距离 Duarte 较远。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "木木小火锅",
+    "nameEn": "Mumu Hot Pot",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "3525 W Carson St #170, Torrance, CA 90503",
+    "source": "https://www.restaurantji.com/ca/torrance/mumu-hot-pot-/",
+    "phone": "(424) 624-8784"
+  },
+  {
+    "name": "Juicy Hotpot",
+    "type": "广式打边炉",
+    "category": "火锅",
+    "area": "San Gabriel",
+    "opening": "周末 11:30–14:30、17:00–22:00",
+    "price": "$$",
+    "perPerson": "$25–35",
+    "note": "可选花胶鸡汤锅底。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "珠圆喜润",
+    "nameEn": "Juicy Hotpot",
+    "nameNote": "",
+    "address": "121 E Valley Blvd Ste 110, San Gabriel, CA 91776",
+    "source": "https://www.restaurantji.com/ca/san-gabriel/juicy-hotpot-zhu-yuan-xi-run-guang-shi-da-bian-lu-/",
+    "phone": "(626) 545-2559"
+  },
+  {
+    "name": "上海滩",
+    "type": "本帮菜、东坡肉",
+    "category": "其他中餐",
+    "area": "Arcadia",
+    "opening": "周末 11:00–15:00、17:30–22:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "上海滩",
+    "nameEn": "Shanghailander Palace",
+    "nameNote": "",
+    "address": "1440 S Baldwin Ave, Arcadia, CA 91007",
+    "source": "https://www.restaurantji.com/ca/arcadia/shanghailander-palace-/",
+    "phone": "(626) 348-8866"
+  },
+  {
+    "name": "Burger King",
+    "type": "汉堡快餐",
+    "category": "快餐",
+    "area": "Alhambra",
+    "opening": "周六 06:00–22:00；周日 07:00–22:00",
+    "price": "$",
+    "perPerson": "$10–15",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "汉堡王",
+    "nameEn": "Burger King",
+    "address": "600 E Main St, Alhambra, CA 91801",
+    "source": "https://openhours.com/spots/burger-king-alhambra-600-east-main-street-71137265d4",
+    "phone": "(626) 888-6054"
+  },
+  {
+    "name": "President Thai",
+    "type": "泰式咖喱、炒河粉",
+    "category": "其他亚洲",
+    "area": "Pasadena",
+    "opening": "周末 11:30–22:00",
+    "price": "$$",
+    "perPerson": "$15–25",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "总统泰餐",
+    "nameEn": "President Thai",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "498 S Rosemead Blvd, Pasadena, CA 91107",
+    "source": "https://www.presidentthai.com/",
+    "phone": "(626) 578-9814"
+  },
+  {
+    "name": "Golden Delight",
+    "type": "越南菜 + 粤菜",
+    "category": "其他亚洲",
+    "area": "Rosemead",
+    "opening": "周末 09:00–21:00",
+    "price": "$$",
+    "perPerson": "$15–20",
+    "note": "Garvey Ave 门店，周三休息。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "金悦餐厅",
+    "nameEn": "Golden Delight",
+    "nameNote": "另一语言为检索用译名或音译",
+    "address": "8479 Garvey Ave #101A, Rosemead, CA 91770",
+    "source": "https://goldendelightrestaurant.com/",
+    "phone": "(626) 656-6262"
+  },
+  {
+    "name": "蓉合川菜",
+    "type": "川菜、水煮鱼",
+    "category": "川湘",
+    "area": "Alhambra",
+    "opening": "周末 11:00–21:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "蓉合川菜",
+    "nameEn": "Szechuan Spicy Bay",
+    "address": "1265 E Valley Blvd, Alhambra, CA 91801",
+    "source": "https://www.sichuanspicybay.com/contact-us/",
+    "phone": "(626) 872-1188"
+  },
+  {
+    "name": "山西百年面道",
+    "type": "山西刀削面、剪刀面",
+    "category": "其他中餐",
+    "area": "Rosemead",
+    "opening": "周末 10:00–21:00",
+    "price": "$",
+    "perPerson": "$15–20",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "山西百年面道",
+    "nameEn": "Noodle Palace",
+    "address": "8518 Valley Blvd #108, Rosemead, CA 91770",
+    "source": "https://noodlepalacetogo.com/",
+    "phone": "(626) 782-7808"
+  },
+  {
+    "name": "Little Skewer",
+    "type": "中式烧烤串",
+    "category": "川湘",
+    "area": "Monterey Park",
+    "opening": "周六 12:00–15:00、17:00–00:00；周日 12:00–15:00、17:00–23:00",
+    "price": "$$",
+    "perPerson": "$15–30",
+    "note": "主要晚饭，周末有午市",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "从前的小酒馆",
+    "nameEn": "Little Skewer",
+    "address": "429 W Garvey Ave, Monterey Park, CA 91754",
+    "phone": "(626) 537-1235",
+    "source": "https://eatinsgv.com/restaurant/little-skewer"
+  },
+  {
+    "name": "成都印象",
+    "type": "川菜",
+    "category": "川湘",
+    "area": "Arcadia",
+    "opening": "周末 11:00–14:00、17:00–21:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "成都印象",
+    "nameEn": "Chengdu Impression",
+    "address": "21 E Huntington Dr, Arcadia, CA 91006",
+    "phone": "(626) 462-9999",
+    "source": "https://eatinsgv.com/restaurant/chengdu-impression"
+  },
+  {
+    "name": "四川集市",
+    "type": "川菜、跷脚牛肉、沸腾鱼",
+    "category": "川湘",
+    "area": "San Gabriel",
+    "opening": "周末 17:00–次日 01:00",
+    "price": "$$",
+    "perPerson": "$20–30",
+    "note": "",
+    "meals": [
+      "d"
+    ],
+    "nameZh": "四川集市",
+    "nameEn": "Pepper Tavern",
+    "address": "137 W Valley Blvd, San Gabriel, CA 91776",
+    "source": "https://www.peppertavern.com/",
+    "phone": "(626) 872-1179"
+  },
+  {
+    "name": "吉荣烤鸭",
+    "type": "北京烤鸭",
+    "category": "其他中餐",
+    "area": "Rosemead",
+    "opening": "周末 11:00–15:00、17:00–21:00",
+    "price": "$$",
+    "perPerson": "$25–35",
+    "note": "整只烤鸭建议提前预订。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "吉荣烤鸭",
+    "nameEn": "Ji Rong Peking Duck",
+    "address": "8450 E Valley Blvd #115, Rosemead, CA 91770",
+    "source": "https://www.jirongpekingduck.com/",
+    "phone": "(626) 280-8600"
+  },
+  {
+    "name": "穿山甲",
+    "type": "川菜、晾衣白肉",
+    "category": "川湘",
+    "area": "Rowland Heights",
+    "opening": "周六 11:00–23:00；周日 11:00–22:00",
+    "price": "$$",
+    "perPerson": "$30–55",
+    "note": "选择 Rowland Heights 门店。",
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameZh": "川山甲",
+    "nameEn": "Szechuan Mountain House",
+    "nameNote": "原清单记作「穿山甲」",
+    "address": "18888 Labin Ct #C101, Rowland Heights, CA 91748",
+    "source": "https://www.szechuanmountainhouse.com/home",
+    "phone": "(626) 986-5555"
+  }
+]

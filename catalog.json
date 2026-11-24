@@ -1,0 +1,1073 @@
+[
+  {
+    "nameZh": "三妈臭臭锅",
+    "nameEn": "Boiling Point",
+    "category": "火锅",
+    "type": "台式个人小火锅",
+    "area": "San Gabriel",
+    "perPerson": "20–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://www.bpgroupusa.com/order.html?id=25&tab=delivery",
+    "nameNote": "",
+    "address": "315 S San Gabriel Blvd, San Gabriel, CA 91776",
+    "opening": "周六 11:00–22:00；周日 11:00–21:00",
+    "phone": "(626) 300-9800"
+  },
+  {
+    "nameZh": "快乐小羊",
+    "nameEn": "Happy Lamb Hot Pot",
+    "category": "火锅",
+    "type": "羊肉火锅",
+    "area": "San Gabriel",
+    "perPerson": "35–55 美元",
+    "budgetUsd": 55,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://eatinsgv.com/restaurant/happy-lamb-hot-pot",
+    "nameNote": "",
+    "address": "140 W Valley Blvd Ste 213, San Gabriel, CA 91776",
+    "opening": "周六 11:30–23:00；周日 11:30–22:30",
+    "phone": "(626) 766-1577"
+  },
+  {
+    "nameZh": "滋味成都",
+    "nameEn": "Chengdu Taste",
+    "category": "川湘",
+    "type": "牙签羊肉、川式鱼片",
+    "area": "Alhambra",
+    "perPerson": "25–40 美元",
+    "budgetUsd": 40,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/alhambra/restaurant/chengdu-taste",
+    "nameNote": "",
+    "address": "828 W. Valley Blvd., Alhambra, CA 91803",
+    "phone": "(626) 588-2284",
+    "opening": "周末 11:00–21:30"
+  },
+  {
+    "nameZh": "锦城里",
+    "nameEn": "Sichuan Impression",
+    "category": "川湘",
+    "type": "川菜、藤椒鱼",
+    "area": "Alhambra",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/alhambra/restaurant/sichuan-impression",
+    "nameNote": "",
+    "address": "235 W. Main St., Ste. B, Alhambra, CA 91801",
+    "phone": "(626) 283-4622",
+    "opening": "周末 11:30–14:30、17:00–21:00"
+  },
+  {
+    "nameZh": "滋味小面",
+    "nameEn": "MIAN",
+    "category": "川湘",
+    "type": "四川小面",
+    "area": "Los Angeles · West Adams",
+    "perPerson": "15–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://coverage-99f18a7f78c47d3ab996b5610ca96896.web.ordersave.com/page/our-locations",
+    "nameNote": "",
+    "address": "5263 W Adams Blvd, Los Angeles, CA 90016",
+    "opening": "周六 11:30–22:00；周日 11:30–21:00",
+    "phone": "(323) 332-6176"
+  },
+  {
+    "nameZh": "喜悦台湾小馆",
+    "nameEn": "Joy on York",
+    "category": "台湾",
+    "type": "台式千层饼、卤肉饭",
+    "area": "Los Angeles · Highland Park",
+    "perPerson": "15–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://www.joyonyork.com/",
+    "nameNote": "中文为检索用译名",
+    "address": "5100 York Blvd, Los Angeles, CA 90042",
+    "opening": "周末 12:00–22:00",
+    "phone": "(323) 999-7642"
+  },
+  {
+    "nameZh": "大和卤味",
+    "nameEn": "Dai Ho",
+    "category": "台湾",
+    "type": "台式牛肉面",
+    "area": "Temple City",
+    "perPerson": "20–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "l"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/temple-city/restaurant/dai-ho",
+    "nameNote": "中文为检索用译名",
+    "address": "9148 Las Tunas Dr., Temple City, CA 91780",
+    "phone": "(626) 291-2295",
+    "opening": "周末 11:30–14:30"
+  },
+  {
+    "nameZh": "凯悦大酒楼",
+    "nameEn": "Lunasia Dim Sum House",
+    "category": "其他中餐",
+    "type": "广式点心",
+    "area": "Alhambra",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/alhambra/restaurant/lunasia-dim-sum-house",
+    "nameNote": "",
+    "address": "500 W. Main St., Alhambra, CA 91801",
+    "phone": "(626) 308-3222",
+    "opening": "周末 09:30–20:30"
+  },
+  {
+    "nameZh": "龙港海鲜",
+    "nameEn": "Longo Seafood",
+    "category": "其他中餐",
+    "type": "粤式海鲜、点心",
+    "area": "Rosemead",
+    "perPerson": "30–55 美元",
+    "budgetUsd": 55,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/rosemead/restaurant/longo-seafood",
+    "nameNote": "中文为检索用译名",
+    "address": "7540 Garvey Ave., Rosemead, CA 91770",
+    "phone": "(626) 280-8188",
+    "opening": "周末 10:00–15:00、17:00–22:00"
+  },
+  {
+    "nameZh": "新港海鲜",
+    "nameEn": "Newport Seafood",
+    "category": "其他中餐",
+    "type": "中式海鲜、招牌龙虾",
+    "area": "San Gabriel",
+    "perPerson": "45–80 美元",
+    "budgetUsd": 80,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/san-gabriel/restaurant/newport-seafood",
+    "nameNote": "",
+    "address": "518 W. Las Tunas Dr., San Gabriel, CA 91776",
+    "phone": "(626) 289-5998",
+    "opening": "周六 11:00–21:30；周日 11:00–21:00"
+  },
+  {
+    "nameZh": "朴氏烤肉",
+    "nameEn": "Parks BBQ",
+    "category": "日韩",
+    "type": "韩式烤牛肉",
+    "area": "Los Angeles · Koreatown",
+    "perPerson": "45–80 美元",
+    "budgetUsd": 80,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/parks-bbq",
+    "nameNote": "中文为检索用译名",
+    "address": "955 S. Vermont Ave., Ste.G, Los Angeles, CA 90006",
+    "phone": "(213) 380-1717",
+    "opening": "周末 11:00–22:00"
+  },
+  {
+    "nameZh": "丸龟纹三",
+    "nameEn": "Marugame Monzo",
+    "category": "日韩",
+    "type": "日式手工乌冬",
+    "area": "Los Angeles · Little Tokyo",
+    "perPerson": "20–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/marugame-monzo",
+    "nameNote": "中文为检索用译名",
+    "address": "329 E. 1st St., Los Angeles, CA 90012",
+    "phone": "(213) 346-9762",
+    "opening": "周末 11:00–22:00"
+  },
+  {
+    "nameZh": "喜泉寿司",
+    "nameEn": "Sushi Kisen",
+    "category": "日韩",
+    "type": "日式寿司",
+    "area": "Arcadia",
+    "perPerson": "45–85 美元",
+    "budgetUsd": 85,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/arcadia/restaurant/sushi-kisen",
+    "nameNote": "中文为检索用译名",
+    "address": "1108 S. Baldwin Ave., #B6, Arcadia, CA 91007",
+    "phone": "(626) 623-6033",
+    "opening": "周六 11:45–14:00、17:00–22:00；周日 休息"
+  },
+  {
+    "nameZh": "怡保茶室",
+    "nameEn": "Ipoh Kopitiam",
+    "category": "其他亚洲",
+    "type": "马来西亚海南鸡饭、咖椰吐司",
+    "area": "Alhambra",
+    "perPerson": "15–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/alhambra/restaurant/ipoh-kopitiam",
+    "nameNote": "",
+    "address": "1411 S. Garfield Ave., Ste. 104, Alhambra, CA 91801",
+    "phone": "(626) 703-4198",
+    "opening": "周末 09:00–20:45"
+  },
+  {
+    "nameZh": "吉特拉达泰餐",
+    "nameEn": "Jitlada",
+    "category": "其他亚洲",
+    "type": "泰南咖喱",
+    "area": "Los Angeles · Thai Town",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://jitladala.com/contact/",
+    "nameNote": "中文为检索用译名",
+    "address": "5233 W Sunset Blvd, Los Angeles, CA 90027",
+    "opening": "周末 11:00–15:00、16:30–22:00",
+    "phone": "(323) 667-9809"
+  },
+  {
+    "nameZh": "尤尼恩意大利餐厅",
+    "nameEn": "Union",
+    "category": "西式",
+    "type": "意式手工面",
+    "area": "Pasadena",
+    "perPerson": "45–75 美元",
+    "budgetUsd": 75,
+    "meals": [
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/pasadena/restaurant/union",
+    "nameNote": "中文为检索用译名",
+    "address": "37 Union St., Pasadena, CA 91103",
+    "phone": "(626) 795-5841",
+    "opening": "周末 16:00–21:00"
+  },
+  {
+    "nameZh": "河马意大利餐厅",
+    "nameEn": "Hippo",
+    "category": "西式",
+    "type": "意式面食",
+    "area": "Los Angeles · Highland Park",
+    "perPerson": "35–60 美元",
+    "budgetUsd": 60,
+    "meals": [
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/hippo",
+    "nameNote": "中文为检索用译名",
+    "address": "5916 1/2 Figueroa St., Los Angeles, CA 90042",
+    "phone": "(323) 545-3536",
+    "opening": "周末 17:00–21:00"
+  },
+  {
+    "nameZh": "四分之一盘披萨",
+    "nameEn": "Quarter Sheets",
+    "category": "西式",
+    "type": "厚底披萨",
+    "area": "Los Angeles · Echo Park",
+    "perPerson": "20–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/quarter-sheets-pizza",
+    "nameNote": "中文为检索用译名",
+    "address": "1305 Portia St., Los Angeles, CA 90026",
+    "phone": "(310) 916-9293",
+    "opening": "周末 17:00–21:00"
+  },
+  {
+    "nameZh": "因恩奥特汉堡",
+    "nameEn": "In-N-Out Burger",
+    "category": "快餐",
+    "type": "加州汉堡",
+    "area": "Pasadena",
+    "perPerson": "8–15 美元",
+    "budgetUsd": 15,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://locations.in-n-out.com/5-Pasadena",
+    "nameNote": "中文为检索用译名",
+    "address": "2114 E Foothill Blvd, Pasadena, CA 91107",
+    "opening": "周六 10:30–次日 01:30；周日 10:30–次日 01:00",
+    "phone": ""
+  },
+  {
+    "nameZh": "豪林雷辣炸鸡",
+    "nameEn": "Howlin’ Ray’s",
+    "category": "快餐",
+    "type": "纳什维尔辣鸡三明治",
+    "area": "Pasadena",
+    "perPerson": "15–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://howlinrays.com/pages/locations",
+    "nameNote": "中文为检索用译名",
+    "address": "800 S Arroyo Pkwy, Pasadena, CA 91105",
+    "phone": "(213) 935-8399",
+    "opening": "周末 11:00–19:00"
+  },
+  {
+    "nameZh": "维拉塔可",
+    "nameEn": "Villa’s Tacos",
+    "category": "快餐",
+    "type": "墨西哥塔可",
+    "area": "Los Angeles · Highland Park",
+    "perPerson": "12–22 美元",
+    "budgetUsd": 22,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/villa-s-tacos",
+    "nameNote": "中文为检索用译名",
+    "address": "5455 N. Figueroa St., Ste. 123, Los Angeles, CA 90042",
+    "phone": "(818) 741-8011",
+    "opening": "周末 12:00–21:00"
+  },
+  {
+    "nameZh": "吃茶三千",
+    "nameEn": "CHICHA San Chen",
+    "category": "饮品",
+    "type": "现萃台湾茶",
+    "area": "San Gabriel",
+    "perPerson": "6–11 美元",
+    "budgetUsd": 11,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://www.restaurantji.com/ca/san-gabriel/chicha-san-chen-san-gabriel-/",
+    "nameNote": "",
+    "address": "301 W Valley Blvd Ste 116, San Gabriel, CA 91776",
+    "opening": "周六 12:00–21:00；周日 12:00–20:00",
+    "phone": "(626) 766-1512"
+  },
+  {
+    "nameZh": "日光茶坊",
+    "nameEn": "Sunright Tea Studio",
+    "category": "饮品",
+    "type": "鲜奶茶、波霸",
+    "area": "Arcadia",
+    "perPerson": "6–10 美元",
+    "budgetUsd": 10,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "source": "https://www.snrtea.com/store-location/",
+    "nameNote": "中文为检索用译名",
+    "address": "1220 S Golden W Ave #A, Arcadia, CA 91007",
+    "opening": "周末 11:00–21:00",
+    "phone": "(626) 348-8070"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "骨汤厨房",
+    "nameEn": "Bone Kettle",
+    "category": "其他亚洲",
+    "type": "东南亚牛骨汤面",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "67 N Raymond Ave, Pasadena, CA 91103",
+    "area": "Pasadena",
+    "phone": "(626) 765-3788",
+    "opening": "周末 10:00–14:30、16:30–21:00",
+    "source": "https://eatinsgv.com/restaurant/bone-kettle"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "熊猫客栈",
+    "nameEn": "Panda Inn",
+    "category": "其他中餐",
+    "type": "美式中餐、共享热炒",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "3488 E Foothill Blvd, Pasadena, CA 91107",
+    "area": "Pasadena",
+    "phone": "(626) 793-7300",
+    "opening": "周末 11:00–22:00",
+    "source": "https://eatinsgv.com/restaurant/panda-inn"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "派与汉堡",
+    "nameEn": "Pie 'n Burger",
+    "category": "快餐",
+    "type": "煎台汉堡、自制派",
+    "perPerson": "15–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "913 E California Blvd, Pasadena, CA 91106",
+    "area": "Pasadena",
+    "phone": "(626) 795-1123",
+    "opening": "周末 08:00–21:00",
+    "source": "https://eatinsgv.com/restaurant/pie-n-burger"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "幸运男孩汉堡",
+    "nameEn": "Lucky Boy",
+    "category": "快餐",
+    "type": "早餐卷饼、汉堡",
+    "perPerson": "10–20 美元",
+    "budgetUsd": 20,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "640 S Arroyo Pkwy, Pasadena, CA 91105",
+    "area": "Pasadena",
+    "phone": "(626) 793-0120",
+    "opening": "周末 05:00–00:00",
+    "source": "https://eatinsgv.com/restaurant/lucky-boy"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "龙之家拉面",
+    "nameEn": "Ramen Tatsunoya",
+    "category": "日韩",
+    "type": "九州豚骨拉面",
+    "perPerson": "18–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "16 N Fair Oaks Ave, Pasadena, CA 91103",
+    "area": "Pasadena",
+    "phone": "(626) 432-1768",
+    "opening": "周末 11:00–22:00",
+    "source": "https://eatinsgv.com/restaurant/ramen-tatsunoya"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "大泽日本料理",
+    "nameEn": "Osawa",
+    "category": "日韩",
+    "type": "寿司、涮涮锅",
+    "perPerson": "35–65 美元",
+    "budgetUsd": 65,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "77 N Raymond Ave, Pasadena, CA 91101",
+    "area": "Pasadena",
+    "phone": "(626) 683-1150",
+    "opening": "周六 11:30–14:15、16:45–21:15；周日 11:30–14:15、16:45–21:00",
+    "source": "https://eatinsgv.com/restaurant/osawa"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "渔家海鲜馆",
+    "nameEn": "Fishwives",
+    "category": "西式",
+    "type": "生蚝、海鲜料理",
+    "perPerson": "35–65 美元",
+    "budgetUsd": 65,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "88 N Fair Oaks Ave, Pasadena, CA 91103",
+    "area": "Pasadena",
+    "phone": "(626) 219-6199",
+    "opening": "周六 11:30–22:00；周日 11:30–21:00",
+    "source": "https://eatinsgv.com/restaurant/fishwives"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "曼达林咖啡",
+    "nameEn": "Mandarin Coffee Stand",
+    "category": "饮品",
+    "type": "精品咖啡",
+    "perPerson": "5–12 美元",
+    "budgetUsd": 12,
+    "meals": [
+      "l"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "380 S Lake Ave #111, Pasadena, CA 91101",
+    "area": "Pasadena",
+    "phone": "(626) 616-1964",
+    "opening": "周末 08:00–15:00",
+    "source": "https://eatinsgv.com/restaurant/mandarin-coffee-stand"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "托普斯汉堡",
+    "nameEn": "The Original Tops",
+    "category": "快餐",
+    "type": "熏牛肉三明治、早餐卷饼",
+    "perPerson": "12–22 美元",
+    "budgetUsd": 22,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "3838 E Colorado Blvd, Pasadena, CA 91107",
+    "area": "Pasadena",
+    "phone": "(626) 449-4412",
+    "opening": "周六 07:00–23:00；周日 07:00–22:00",
+    "source": "https://eatinsgv.com/restaurant/the-original-tops"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "德比牛排馆",
+    "nameEn": "The Derby",
+    "category": "西式",
+    "type": "牛排、周末早午餐",
+    "perPerson": "45–90 美元",
+    "budgetUsd": 90,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "233 E Huntington Dr, Arcadia, CA 91006",
+    "area": "Arcadia",
+    "phone": "(626) 447-2430",
+    "opening": "周六 10:30–14:30、16:00–22:00；周日 10:30–14:30、16:00–21:00",
+    "source": "https://www.thederbyarcadia.com/contact"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "辛巴乐",
+    "nameEn": "SinBala",
+    "category": "台湾",
+    "type": "台湾香肠饭、小吃",
+    "perPerson": "12–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "651 W Duarte Rd, Unit F, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 446-0886",
+    "opening": "周末 11:00–20:00",
+    "source": "https://eatinsgv.com/restaurant/sinbala"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "凪拉面",
+    "nameEn": "Ramen Nagi",
+    "category": "日韩",
+    "type": "豚骨拉面",
+    "perPerson": "18–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "400 S Baldwin Ave Suite D2, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 217-2321",
+    "opening": "周末 11:00–21:00",
+    "source": "https://eatinsgv.com/restaurant/ramen-nagi"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "汤尼点心",
+    "nameEn": "Chef Tony",
+    "category": "其他中餐",
+    "type": "粤式点心",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "1108 S. Baldwin Ave., Ste. B5, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 623-6668",
+    "opening": "周末 10:00–21:00",
+    "source": "https://guide.michelin.com/us/en/california/arcadia/restaurant/chef-tony"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "老西儿面馆",
+    "nameEn": "LaoXi Noodle House",
+    "category": "其他中餐",
+    "type": "山西面食",
+    "perPerson": "15–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "600 E Live Oak Ave, Arcadia, CA 91006",
+    "area": "Arcadia",
+    "phone": "(626) 348-2290",
+    "opening": "周末 11:00–15:00、17:00–20:00",
+    "source": "https://laoxinoodlehouse.com/location/"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "渔邨海鲜酒家",
+    "nameEn": "Full House Seafood Restaurant",
+    "category": "其他中餐",
+    "type": "粤式点心、海鲜",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "1220 S Golden W Ave, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 446-8222",
+    "opening": "周末 09:00–20:30",
+    "source": "https://eatinsgv.com/restaurant/full-house-restaurant"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "杨国福麻辣烫",
+    "nameEn": "YGF Malatang",
+    "category": "川湘",
+    "type": "自选麻辣烫",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "1311 S Baldwin Ave #A, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 623-6110",
+    "opening": "周六 11:30–22:45；周日 11:30–20:30",
+    "source": "https://www.ygfmalatangarcadia.com/contact-us/"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "印象烫捞",
+    "nameEn": "Yin Tang",
+    "category": "火锅",
+    "type": "自选烫捞、麻辣汤底",
+    "perPerson": "15–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "1435 S Baldwin Ave, Arcadia, CA 91007",
+    "area": "Arcadia",
+    "phone": "(626) 623-8800",
+    "opening": "周末 10:30–21:30",
+    "source": "https://eatinsgv.com/restaurant/yin-tang"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "金粉越南餐厅",
+    "nameEn": "Golden Deli",
+    "category": "其他亚洲",
+    "type": "越南河粉、炸春卷",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "815 W Las Tunas Dr, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "(626) 308-0803",
+    "opening": "周末 10:00–20:00",
+    "source": "https://eatinsgv.com/restaurant/golden-deli"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "ㄅㄆㄇㄈ茶饮",
+    "nameEn": "Bopomofo Cafe",
+    "category": "饮品",
+    "type": "台式茶饮、奶茶",
+    "perPerson": "7–15 美元",
+    "budgetUsd": 15,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "841 W Las Tunas Dr, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "",
+    "opening": "周六 11:00–21:00；周日 11:00–20:00",
+    "source": "https://eatinsgv.com/restaurant/bopomofo-cafe"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "回头香",
+    "nameEn": "Hui Tou Xiang",
+    "category": "其他中餐",
+    "type": "手工锅贴、水饺",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "704 W Las Tunas Dr Ste 5, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "(626) 281-9888",
+    "opening": "周末 10:30–21:00",
+    "source": "https://www.huitouxiang.com/visit-us"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "巴努印度厨房",
+    "nameEn": "Bhanu Indian Cuisine & Market",
+    "category": "其他亚洲",
+    "type": "印度咖喱、烤饼",
+    "perPerson": "15–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "7246 Rosemead Blvd, San Gabriel, CA 91775",
+    "area": "San Gabriel",
+    "phone": "(626) 291-2101",
+    "opening": "周末 10:30–21:45",
+    "source": "https://eatinsgv.com/restaurant/bhanu-indian-cuisine-market"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "彼得里罗披萨",
+    "nameEn": "Petrillo's Pizza",
+    "category": "西式",
+    "type": "意式披萨",
+    "perPerson": "18–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "833 E Valley Blvd, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "(626) 280-7332",
+    "opening": "周末 14:00–21:00",
+    "source": "https://eatinsgv.com/restaurant/petrillos"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "重庆小面",
+    "nameEn": "Chongqing Special Noodle",
+    "category": "川湘",
+    "type": "麻辣小面",
+    "perPerson": "12–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "708 E Las Tunas Dr, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "(626) 374-1849",
+    "opening": "周末 11:00–21:00",
+    "source": "https://eatinsgv.com/restaurant/chongqing-special-noodle"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "先农坛",
+    "nameEn": "Sun Nong Dan",
+    "category": "日韩",
+    "type": "韩式牛骨汤、炖牛排骨",
+    "perPerson": "20–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "address": "927 E Las Tunas Dr STE J, San Gabriel, CA 91776",
+    "area": "San Gabriel",
+    "phone": "(626) 286-1234",
+    "opening": "周末 00:00–23:59",
+    "source": "https://eatinsgv.com/restaurant/sun-nong-dan"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "山海鲜寿司市场",
+    "nameEn": "Yama Sushi Marketplace",
+    "category": "日韩",
+    "type": "外带寿司、生鱼片",
+    "perPerson": "12–30 美元",
+    "budgetUsd": 30,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "911 W Las Tunas Dr, San Gabriel, CA 91775",
+    "area": "San Gabriel",
+    "phone": "(626) 250-6203",
+    "opening": "周末 11:00–20:00",
+    "source": "https://eatinsgv.com/restaurant/yama-sushi-marketplace"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "美味居饺子馆",
+    "nameEn": "Luscious Dumplings",
+    "category": "其他中餐",
+    "type": "锅贴、手工水饺",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "address": "919 W. Duarte Rd., Monrovia, CA 91016",
+    "area": "Monrovia",
+    "phone": "(626) 821-0518",
+    "opening": "周末 11:00–14:30、17:00–20:30",
+    "source": "https://guide.michelin.com/us/en/california/us-monrovia/restaurant/luscious-dumplings"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "珍妮特地中海厨房",
+    "nameEn": "Janet’s Mediterranean Cuisine",
+    "category": "西式",
+    "type": "地中海烤肉、鹰嘴豆泥",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Duarte",
+    "address": "1402 Huntington Dr, Duarte, CA 91010",
+    "opening": "周六 10:00–20:00；周日 10:00–17:00",
+    "source": "https://janetscuisine.com/page/faqs",
+    "phone": "(626) 256-4404"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "老意面工厂",
+    "nameEn": "The Old Spaghetti Factory",
+    "category": "西式",
+    "type": "意式面食、家庭聚餐",
+    "perPerson": "20–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Duarte",
+    "address": "1431 Buena Vista St, Duarte, CA 91010",
+    "opening": "周六 11:30–21:30；周日 11:30–21:00",
+    "source": "https://www.osf.com/location/duarte-ca/",
+    "phone": "(626) 358-2115"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "卡布雷拉墨西哥餐厅",
+    "nameEn": "Cabrera’s Mexican Restaurant",
+    "category": "西式",
+    "type": "墨西哥菜、玉米饼",
+    "perPerson": "18–35 美元",
+    "budgetUsd": 35,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Duarte",
+    "address": "1856 Huntington Dr, Duarte, CA 91010",
+    "opening": "周六 09:00–22:00；周日 09:00–21:00",
+    "source": "https://www.cabreras.com/duarte-location",
+    "phone": "(626) 359-3614"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "纳诺咖啡馆",
+    "nameEn": "Nano Cafe",
+    "category": "西式",
+    "type": "美式早午餐、韩式烤肉饭",
+    "perPerson": "15–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Monrovia",
+    "address": "441 W Duarte Rd, Monrovia, CA 91016",
+    "opening": "周六 06:00–15:00；周日 07:00–15:00",
+    "source": "https://www.nanocafemonrovia.com/visit/",
+    "phone": "(626) 357-2659"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "好多利韩式烤肉",
+    "nameEn": "Hodori BBQ & Korean Cuisine",
+    "category": "日韩",
+    "type": "韩式烤肉、牛排骨",
+    "perPerson": "30–60 美元",
+    "budgetUsd": 60,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Arcadia",
+    "address": "400 S Baldwin Ave Ste 2315, Arcadia, CA 91007",
+    "opening": "周末 11:00–22:00",
+    "source": "https://hodoricabbq.com/",
+    "phone": "(626) 317-5046"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "遇见烧烤",
+    "nameEn": "Meet You BBQ",
+    "category": "川湘",
+    "type": "烤鱼、烤串",
+    "perPerson": "25–45 美元",
+    "budgetUsd": 45,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "area": "San Gabriel",
+    "address": "529 E Valley Blvd #158, San Gabriel, CA 91776",
+    "opening": "周末 12:00–次日 02:00",
+    "source": "https://www.meetyoubbq.com/",
+    "phone": "(626) 288-5458"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "小陆子清粥店",
+    "nameEn": "Lu's Garden",
+    "category": "台湾",
+    "type": "清粥小菜、台湾香肠",
+    "perPerson": "12–25 美元",
+    "budgetUsd": 25,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "",
+    "area": "San Gabriel",
+    "address": "534 E Valley Blvd Ste 12, San Gabriel, CA 91776",
+    "opening": "周末 11:30–21:00",
+    "source": "https://www.lusgardensg.com/",
+    "phone": "(626) 280-5883"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "核桃市咖喱披萨",
+    "nameEn": "The Curry Pizza Company",
+    "category": "西式",
+    "type": "印度风味披萨",
+    "perPerson": "15–28 美元",
+    "budgetUsd": 28,
+    "meals": [
+      "l",
+      "d"
+    ],
+    "nameNote": "中文为检索用译名",
+    "area": "Walnut",
+    "address": "376 S Lemon Ave, Walnut, CA 91789",
+    "opening": "周六 10:30–22:00；周日 10:30–21:00",
+    "source": "https://www.currypizza.com/location/walnut",
+    "phone": "(909) 978-5065"
+  },
+  {
+    "introduced": 3,
+    "nameZh": "奇华饼家",
+    "nameEn": "Kee Wah Bakery",
+    "category": "其他中餐",
+    "type": "港式面包、蛋挞",
+    "perPerson": "5–15 美元",
+    "budgetUsd": 15,
+    "meals": [
+      "l"
+    ],
+    "nameNote": "",
+    "area": "Arcadia",
+    "address": "1010 S Baldwin Ave, Arcadia, CA 91007",
+    "opening": "周末 09:30–17:30",
+    "source": "https://keewah.us/pages/store-locations",
+    "phone": "(626) 574-1103"
+  }
+]

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>今天吃什么</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23b3121f'/%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%23f2b84b' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="band">
+  <header class="topbar"><h1>今天吃什么？</h1>
+    <button type="button" class="add-icon" id="add-shop" aria-label="添加餐厅" title="添加餐厅" disabled>＋</button>
+  </header>
+  <p class="sub">从你们的<span id="total"></span>想吃清单里转一个。先选条件，再按中间的「转」。</p>
+  <div class="grid">
+    <div class="table">
+      <svg class="pin" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 44 2 14A15 15 0 1 1 32 14Z" fill="#f2b84b"/><circle cx="17" cy="14" r="6" fill="#b3121f"/></svg>
+      <svg viewBox="0 0 400 400" role="img" aria-label="餐厅转盘">
+        <defs><radialGradient id="rim" cx="50%" cy="45%"><stop offset="80%" stop-color="#8a0d18"/><stop offset="100%" stop-color="#5a0710"/></radialGradient></defs>
+        <circle cx="200" cy="206" r="196" fill="#0005"/>
+        <circle cx="200" cy="200" r="198" fill="url(#rim)"/>
+        <circle cx="200" cy="200" r="188" fill="none" stroke="#f2b84b" stroke-width="3"/>
+        <g id="wheel"></g>
+      </svg>
+      <button id="spin" disabled type="button">转！</button>
+    </div>
+
+    <div>
+      <div class="card" id="result">
+        <div class="k" id="status" role="status">正在读取清单……</div>
+        <div class="live" id="live">—</div>
+        <div id="detail"><p class="empty">转一下，结果和店铺信息会显示在这里。</p></div>
+      </div>
+
+      <div class="card">
+        <h2>想吃哪类</h2>
+        <div class="chips" id="cats"></div>
+        <h2>人均预算（美元）</h2>
+        <div class="chips" id="prices"></div>
+        <h2>哪一顿</h2>
+        <div class="chips" id="meals"></div>
+        <p class="count" id="count"></p>
+      </div>
+
+      <div class="card">
+        <h2>大家最近转到的</h2>
+        <ul class="hist" id="hist"></ul>
+        <label style="display:flex;gap:8px;align-items:center;margin-top:10px;font-size:15px"><input type="checkbox" id="norepeat" style="width:18px;height:18px;accent-color:var(--red)"> 不要转到最近 3 次出现过的</label>
+        <details style="margin-top:10px">
+          <summary>排除某些店（取消勾选就不会转到）</summary>
+          <div class="list" id="list"></div>
+        </details>
+      </div>
+      <div class="card rating-entry">
+        <div><h2>吃过的店</h2><p class="count" id="graded-count"></p></div>
+        <button class="btn" type="button" id="open-ratings" disabled>查看与评分</button>
+      </div>
+      <details id="manager" class="card" hidden>
+        <summary>管理餐厅清单</summary>
+        <form id="editor">
+          <label class="wide">选择餐厅<select id="editing"><option value="">添加新店</option></select></label>
+          <label class="wide">中文名<input name="nameZh" maxlength="100" required></label>
+          <label class="wide">英文名<input name="nameEn" maxlength="100" required></label>
+          <label>菜系<select name="category"></select></label>
+          <label>人均预算上限（美元）<input name="budgetUsd" type="number" min="1" max="5000" step="1"></label>
+          <label>类型<input name="type" maxlength="100" placeholder="例如：川菜"></label>
+          <label>区域<input name="area" maxlength="100"></label>
+          <label class="wide">门店地址<input name="address" maxlength="220" placeholder="街道门牌、单元号、城市、州和邮编"></label>
+          <label>电话（选填）<input name="phone" type="tel" maxlength="40"></label>
+          <label>开门时间<input name="opening" maxlength="100"></label>
+          <fieldset class="wide"><legend>适合哪一顿</legend><label><input name="lunch" type="checkbox" checked>午饭</label> <label><input name="dinner" type="checkbox" checked>晚饭</label></fieldset>
+          <label class="wide">备注<input name="note" maxlength="300"></label>
+          <label class="wide">管理密钥<input name="token" type="password" autocomplete="off" required></label>
+          <div class="acts wide"><button class="btn main" type="submit">保存餐厅</button><span id="edit-status" role="status"></span></div>
+        </form>
+      </details>
+    </div>
+  </div>
+</div>
+
+<dialog id="catalog-dialog" class="sheet" aria-labelledby="catalog-title">
+  <header class="sheet-head"><h2 id="catalog-title">添加餐厅</h2><button class="close" type="button" aria-label="关闭餐厅库">×</button></header>
+  <label class="field">搜索餐厅<input id="lookup" type="search" placeholder="店名、城市或街道地址" autocomplete="off"></label>
+  <label class="field">菜系<select id="lookup-category"><option value="">全部菜系</option></select></label>
+  <div class="row-list" id="matches" aria-label="餐厅库"></div>
+  <p class="feedback" id="add-feedback" role="status"></p>
+  <details id="custom"><summary>没找到？手动添加新店</summary>
+    <form id="new-shop" class="form-grid">
+      <label>中文名<input name="nameZh" required maxlength="100"></label>
+      <label>英文名<input name="nameEn" required maxlength="100"></label>
+      <label>菜系<select name="category"></select></label>
+      <label>所在区域<input name="area" maxlength="100" placeholder="例如 Pasadena"></label>
+          <label class="wide">门店地址<input name="address" maxlength="220" placeholder="街道门牌、单元号、城市、州和邮编"></label>
+          <label>电话（选填）<input name="phone" type="tel" maxlength="40"></label>
+      <label>类型<input name="type" maxlength="100" placeholder="例如：台式面点"></label>
+      <label>开门时间<input name="opening" maxlength="100" placeholder="未知可留空"></label>
+      <label class="wide">预计人均上限（美元）<input name="budgetUsd" type="number" step="1" min="1" max="5000" placeholder="未知可留空"></label>
+      <fieldset class="wide"><legend>哪一顿</legend><label><input name="lunch" type="checkbox" checked> 午饭</label> <label><input name="dinner" type="checkbox" checked> 晚饭</label></fieldset>
+      <label class="wide">备注（选填）<input name="note" maxlength="300"></label>
+      <button class="btn main wide" type="submit">保存并加入想吃清单</button>
+      <span class="feedback wide" id="custom-feedback" role="status"></span>
+    </form>
+  </details>
+</dialog>
+
+<dialog id="ratings-dialog" class="sheet" aria-labelledby="ratings-title">
+  <header class="sheet-head"><h2 id="ratings-title">餐厅评分</h2><button class="close" type="button" aria-label="关闭评分">×</button></header>
+  <label class="field">选择吃过的店<select id="review-shop"></select></label>
+  <p class="rating-average" id="review-average" aria-live="polite"></p>
+  <form id="review-form">
+    <fieldset class="stars"><legend>你的评分</legend>
+      <div id="star-options"></div>
+    </fieldset>
+    <label class="field">名字（选填）<input name="author" maxlength="40" placeholder="留空即匿名" autocomplete="off"></label>
+    <button class="btn main" type="submit">提交评分</button>
+    <span class="feedback" id="review-feedback" role="status"></span>
+  </form>
+  <h3>最近评分</h3><ul class="review-list" id="review-list"></ul>
+</dialog>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* VOICE: playful, hungry, quick — a dinner-table game for two
+   IDEA: the red lacquer lazy susan (转盘) at a Chinese banquet table
+   PICTURE: a big turntable of all candidate restaurants, spun by the centre button
+   COLOUR and TYPE: lacquer red field, porcelain white plates, gold rim accent; ZCOOL KuaiLe titles + Noto Sans SC
+   LAYOUT: wheel left/top, live name + result card + filters right/below; stacks under 760px */
+:root{color-scheme:light dark;
+--bg:light-dark(#b3121f,#3a0a0f);--paper:light-dark(#fffaf2,#1d1416);--ink:light-dark(#2a1a14,#f6ece4);
+--soft:light-dark(#7a5a4c,#c9b2a6);--gold:#f2b84b;--line:light-dark(#ecdcc9,#3e2c2e);--red:light-dark(#b3121f,#ff6b6b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Noto Sans SC",system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(20px,3.5vw,48px) max(4vw,16px);max-width:1240px;margin:auto}
+h1{font:400 clamp(36px,6vw,52px)/1.05 "ZCOOL KuaiLe",sans-serif;color:#fff;margin:0 0 4px}
+.sub{color:#ffe3d6;margin:0 0 20px;font-size:15px}
+.grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:start}
+@media(max-width:760px){.grid{grid-template-columns:minmax(0,1fr)}}
+.table{position:relative;aspect-ratio:1;max-width:560px;width:100%;margin:auto}
+.table svg:not(.pin){width:100%;height:100%;display:block}
+#wheel{transform-origin:200px 200px;transform-box:view-box}
+.pin{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:34px;height:44px;filter:drop-shadow(0 3px 3px #0006);z-index:2;pointer-events:none}
+#spin{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:27%;aspect-ratio:1;border-radius:50%;border:5px solid var(--gold);
+ background:radial-gradient(circle at 35% 30%,#ff5a4f,#b3121f 70%);color:#fff;font:400 clamp(22px,4.5vw,34px)/1 "ZCOOL KuaiLe",sans-serif;cursor:pointer;box-shadow:0 6px 18px #0007,inset 0 -6px 10px #0004}
+#spin:focus-visible{outline:4px solid #fff;outline-offset:4px}
+#spin:disabled{cursor:wait;filter:saturate(.7)}
+.card{background:var(--paper);border-radius:18px;padding:20px 22px;box-shadow:0 10px 30px #0004}
+.card+.card{margin-top:16px}
+.live{font:400 clamp(30px,5vw,46px)/1.1 "ZCOOL KuaiLe",sans-serif;color:var(--red);min-height:1.1em;text-wrap:balance;margin:2px 0 10px}
+.k{font-size:13px;color:var(--soft)}
+dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;margin:0 0 14px}
+dt{color:var(--soft);font-size:14px}dd{margin:0;font-weight:500}
+.nowrap{white-space:nowrap}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.btn{min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:500 15px "Noto Sans SC",sans-serif;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}
+.btn.main{background:var(--red);border-color:var(--red);color:#fff}
+.btn:focus-visible,.chip:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+h2{font-size:17px;margin:0 0 10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:15px "Noto Sans SC",sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.count{font-size:14px;color:var(--soft);margin:0}
+details summary{cursor:pointer;font-weight:500;min-height:32px}
+.list{columns:2 180px;gap:16px;margin-top:10px;font-size:15px}
+.list label{display:flex;gap:8px;align-items:center;padding:3px 0;break-inside:avoid}
+.list input{width:18px;height:18px;accent-color:var(--red)}
+.hist{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none;font-size:14px}
+.hist li{background:color-mix(in srgb,var(--gold) 25%,transparent);border-radius:8px;padding:2px 10px}
+.empty{color:var(--soft);font-size:14px}
+@media (prefers-reduced-motion:reduce){#wheel{transition:none!important}}
+[hidden]{display:none!important}
+.live,dd,.hist li,.list label{overflow-wrap:anywhere}
+button:disabled{opacity:.65;cursor:default}
+summary{display:list-item;padding-block:4px}
+#editor{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+#editor label,legend{font-size:14px}
+#editor input:not([type=checkbox]),#editor select{display:block;width:100%;margin-top:4px;min-height:44px;padding:7px 10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
+#editor fieldset{border:1px solid var(--line);border-radius:8px}
+#editor input[type=checkbox]{accent-color:var(--red)}
+.wide{grid-column:1/-1}
+#edit-status{align-self:center;font-size:14px}
+.btn.main{background:#ac1723;border-color:#ac1723}
+@media(max-width:760px){
+  .table{max-width:420px}
+  .card{padding:16px}
+  .chip,.list label,details summary{min-height:44px}
+  .grid{gap:16px}
+}
+.topbar,.sheet-head,.rating-entry,.catalog-row,.review-list li{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.topbar{margin-bottom:6px}
+.add-icon,.close{display:grid;place-items:center;flex-shrink:0;width:46px;height:46px;padding:0;border-radius:50%;cursor:pointer;font:32px/1 system-ui}
+.add-icon{border:2px solid var(--gold);color:#fff;background:#980e1b;box-shadow:0 3px 8px #51051055}
+.add-icon:focus-visible,.close:focus-visible,.history-link:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.rating-entry h2,.sheet-head h2{margin:0}
+.rating-entry .btn,.catalog-row .btn{flex-shrink:0}
+.sheet{border:1px solid var(--line);border-radius:20px;width:min(550px,calc(100% - 24px));max-height:90vh;max-height:90dvh;overflow:auto;overscroll-behavior:contain;padding:22px;background:var(--paper);color:var(--ink);box-shadow:0 16px 65px #0005}
+.sheet::backdrop{background:#27050994}
+body:has(dialog[open]){overflow:hidden}
+.sheet-head{margin-bottom:16px}
+.sheet-head h2{font:400 30px/1.2 "ZCOOL KuaiLe",sans-serif;color:var(--red)}
+.close{border:1px solid var(--line);background:transparent;color:var(--soft);width:44px;height:44px;font-size:23px}
+.field,.form-grid label{display:block;font-size:14px}
+.field{margin:12px 0}
+.sheet input:not([type=radio]):not([type=checkbox]),.sheet select{display:block;margin-top:4px;width:100%;height:44px;border:1px solid var(--line);border-radius:9px;padding:0 10px;background:var(--paper);color:var(--ink);font:inherit;font-size:16px}
+.row-list{max-height:min(38vh,330px);overflow:auto;overscroll-behavior:contain;border-block:1px solid var(--line);scrollbar-gutter:stable}
+.catalog-row{padding:11px 0;overflow-wrap:anywhere}
+.catalog-row+.catalog-row,.review-list li+li{border-top:1px solid var(--line)}
+.catalog-row strong,.catalog-row small,.second-name{display:block}
+.catalog-row small,.second-name{color:var(--soft);font-size:13px}
+.catalog-row a,#detail dd a{color:var(--red)}
+.feedback{font-size:14px;color:var(--red);overflow-wrap:anywhere}
+.feedback:empty{display:none}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-top:8px}
+.form-grid fieldset{border:1px solid var(--line);border-radius:8px}
+.form-grid fieldset label{display:inline-block;padding:6px}
+.form-grid .btn{justify-content:center}
+.history-link{background:transparent;border:0;color:var(--ink);font:inherit;cursor:pointer;padding:4px}
+.rating-average{color:var(--red);font-weight:700}
+.stars{border:0;padding:0;margin:0}
+#star-options{display:flex;gap:2px}
+.stars label{position:relative;cursor:pointer}
+.stars input{position:absolute;opacity:0}
+.stars span{display:grid;place-items:center;width:44px;height:44px;font-size:32px;color:var(--soft)}
+.stars span::before{content:"☆"}
+.stars label:has(:checked) span::before,.stars label:has(~ label :checked) span::before{content:"★";color:light-dark(#965c05,#f2b84b)}
+.stars label:has(:focus-visible){outline:2px solid var(--gold);border-radius:6px}
+.sheet h3{font-size:16px;margin:18px 0 6px}
+.review-list{list-style:none;padding:0;margin:0}
+.review-list li{padding:7px 0;overflow-wrap:anywhere}
+.review-list strong{white-space:nowrap;color:var(--red)}
+@media(max-width:480px){.sheet{padding:16px}.catalog-row{gap:6px}.rating-entry{gap:8px}}
